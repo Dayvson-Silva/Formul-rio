@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Formulário</title>
+
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="principal">
+
+        <div class="esquerda">
+            <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <h3>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</h3>
+        </div>
+
+        <div class="direita">
+            <form id="form">
+                <label for="nome">
+                    
+                    <input class="requerid" type="text" id="nome" name="nome" placeholder="Nome Completo"><br>
+                    <p class="erro" id="nome-erro"></p>
+                </label>
+
+                <label for="email">
+                   
+                    <input class="requerid" type="email" name="email" id="email" placeholder="Email"><br>
+                    <p class="erro" id="email-erro"></p>
+                </label>
+
+                <label for="number">
+                  
+                    <input class="requerid" type="number" name="number" id="number" placeholder="Telefone"><br>
+                    <p class="erro" id="number-erro"></p>
+                </label>
+
+                <label for="mensagem">
+                    
+                    <textarea class="msg" name="mensagem" id="mensagem" placeholder="Mensagem" cols="40" rows="10"></textarea>
+                    <p class="erro" id="mensagem-erro"></p>
+                </label>
+            </form>
+            <p class="campo">*campos obrigatórios</p>
+            <button onclick="validarInput()" class="btn">Enviar</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

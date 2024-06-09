@@ -1,0 +1,111 @@
+
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-image: url(../src/image/a1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+     
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+ 
+}
+
+.principal .esquerda h1{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 900;
+  height: 6vh;
+  width: 15vw;
+
+ 
+}
+
+.principal .esquerda h3{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    width: 14vw;
+
+
+}
+
+.principal .direita{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px 21px;   
+    margin-left: 60px;
+}
+
+input{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+    
+}
+
+input::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+    color: #A8A8A8;
+    padding-left: 10px;
+    padding: 8px;
+}
+
+ .msg{
+    width: 298px;
+    height: 100px;
+    margin-bottom: 7px;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+       
+}
+
+.msg::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+    color:#A8A8A8;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+
+.campo{
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    
+}
+
+
+.btn{
+    background-color:  #3CCC87;
+    font-weight: 700;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.erro{
+    font-size: 8px;
+    font-weight: 400;
+    color:  #F52E2E;
+    
+}
+
